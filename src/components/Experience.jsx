@@ -44,7 +44,7 @@ const Experience = () => {
 
   return (
     <div name="experience"
-    className="bg-gradient-to-b from-gray-800 to-black w-full h-screen">
+    className="bg-gradient-to-b from-gray-900 to-black w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-3xl font-semibold border-b-2 inline border-gray-500 p-2">Experience</p>

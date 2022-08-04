@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-slate-800 via-slate-800 to-slate-800 w-full text-white py-10">
+    <div name="portfolio" className="bg-gradient-to-b from-black to-slate-900 w-full text-white py-10">
         <div className="max-w-screen-lg p-4 mx-auto justify-center flex flex-col w-full h-full" >
           <div className="py-8">
             <p className="text-3xl font-semibold border-b-2 border-gray-500 inline ">Portfolio</p>
