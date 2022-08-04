@@ -1,11 +1,11 @@
 import hero from '../assets/heroImage11.jpg'
-import hero2 from '../assets/heroImage.png'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
         <div name="home"
-            className="h-screen w-full bg-gradient-to-b from-slate-900 via-slate-900 to-slate-700"
+            className="h-screen w-full bg-gradient-to-b from-black via-black to-slate-900"
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full">
@@ -15,13 +15,15 @@ const Home = () => {
                         odio porro neque alias debitis error quae molestiae impedit corrupti illo. Iure!
                     </p>
                     <div>
-                        <button className="flex text-white px-6 py-3 my-2 w-fit items-center rounded-md bg-gradient-to-r
+                        <Link to={"portfolio"} smooth duration={400}>
+                            <button className="flex text-white px-6 py-3 my-2 w-fit items-center rounded-md bg-gradient-to-r
                         from-cyan-500 to-blue-500 cursor-pointer group">
-                            Portfolio
-                            <span className="group-hover:rotate-90 duration-300">
-                                <HiOutlineArrowNarrowRight size={20} className="ml-1"/>
-                            </span>
-                        </button>
+                                Portfolio
+                                <span className="group-hover:rotate-90 duration-300">
+                                    <HiOutlineArrowNarrowRight size={20} className="ml-1" />
+                                </span>
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div>
