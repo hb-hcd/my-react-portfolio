@@ -10,9 +10,8 @@ const Home = () => {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full">
                     <h2 className="text-4xl sm:text-6xl font-bold text-white">I'm a Full Stack Developer</h2>
-                    <p className="text-gray-400 py-4 max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rerum consectetur
-                        ipsam dignissimos, magni adipisci quod quis dolorum
-                        odio porro neque alias debitis error quae molestiae impedit corrupti illo. Iure!
+                    <p className="text-gray-400 py-4 max-w-md">Hi there! Thanks for checking out my website. My name is Haobin and I am currently looking for a job as a Full Stack Developer or Front-End Developer. 
+                    I am passionate about tech and coding. More importanly, I really enjoy the process of solving problems step by step. Feel free to click on the button below to see some of my projects. 
                     </p>
                     <div>
                         <Link to={"portfolio"} smooth duration={400}>
