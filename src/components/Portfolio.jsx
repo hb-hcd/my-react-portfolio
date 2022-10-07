@@ -2,6 +2,7 @@ import React from 'react'
 import netflixclone from '../assets/portfolio/netflixclone.png'
 import sidebar from '../assets/portfolio/tailwindSidebar.png'
 import reactWeather from '../assets/portfolio/reactWeather.png'
+import reactEats from '../assets/portfolio/reactEats.png'
 import {BrowserRouter as Router, Link} from 'react-router-dom'
 
 const Portfolio = () => {
@@ -21,6 +22,11 @@ const Portfolio = () => {
       name: "Tailwind Sidebar",
       src: sidebar,
       url: "https://hbreactsidebar.netlify.app"
+    },
+    {
+      name: "React Eats",
+      src: reactEats,
+      url: "https://hbreacteats.netlify.app/"
     },
 
   ]
